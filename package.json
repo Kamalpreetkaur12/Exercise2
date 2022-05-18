@@ -1,0 +1,15 @@
+{
+  "name": "ux-ui-07-sweet-spot-v4-kamalpreetkaur12",
+  "version": "1.0.0",
+  "description": "Please note that we didn't do the Sweet Spot v3 last time, and this exercise covers the key features of v3 & v4. Please import the V2 files in this repo and continue to work here. Let's polish up **The Sweet Spot** by adding some details to our **UI** to make it a bit more modern and professional. Have a look at the new and improved **v4** below -",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
