@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(218, 214, 214);
+}
+.header_img{
+    background-image: url(./images/main-header.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 25em;
+}
+h1{
+    background-color: rgb(241, 155, 169);
+    font-family: 'Monoton', cursive;
+    font-weight: bold;
+    font-size: 8em;
+    padding: 0.2em;
+    text-align: center;
+    color: #dad8d8;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 0 rgb(101, 194, 238), -2px -2px 0 rgb(101, 194, 238), -2px 2px 0 rgb(50, 130, 221), 2px -2px 0 rgb(101, 194, 238);
+}
+
+main{
+    background-color: rgb(231, 225, 225);
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 3em auto;
+    padding: 2em;
+    width: 75%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    box-sizing: border-box;
+    color:black;
+    
+}
+h2{
+    background-color: rgb(218, 214, 214);
+    color: magenta;
+    padding: 10px;
+     border-radius: 5px;
+
+}
+
+h2::after{
+    
+        font-family: "Font Awesome 5 Free";
+        content: "\f564";
+        margin-left: 8px;
+        color: #1cdbf5;
+    
+}
+
+p{
+    padding: 8px;
+}
+#lollipop_img{
+    width: 12em;
+    height: 8em;
+    border: 5px solid rgb(230, 230, 49);
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+#lollipop{
+    margin: 1.5em 0;
+}
+
+#cottoncandy_img{
+    width: 12em;
+    height: 8em;
+    border: 5px solid rgb(43, 200, 240);
+    border-radius: 50%;
+    float: right;
+    margin-left: 15px;
+}
+
+#cottoncandy{
+    margin: 1.5em 0;
+}
+
+#beans_img{
+    width: 12em;
+    height: 8em;
+    border: 5px solid rgb(209, 88, 199);
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+#beans{
+    margin: 1.5em 0;
+}
+
+h3{
+    text-align: center;
+    
+}
+
+.partners ul{
+    background-color: rgb(235, 135, 160);
+    text-align: center;
+    list-style-type: none;
+    padding: 8px;
+
+}
+
+.partners ul:hover{
+    background-color: yellow;
+}
+
+.partners ul li a{
+    text-decoration: none;
+}
+
+.partners ul li:hover{
+background-color: rgb(235, 135, 160);
+padding: 10px;
+}
+
+#contact a{
+ text-transform: uppercase;
+ color: rgb(54, 5, 119);
+ font-family: 'Quicksand', sans-serif;
+ font-size: 2em;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+#contact{
+    text-align: center;
+    padding: 2em;
+}
